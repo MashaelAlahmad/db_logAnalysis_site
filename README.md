@@ -10,6 +10,8 @@ The program you write in this project will run from the command line.
  analyze the log data, and print out the answers to some questions.
 
 
+
+
 # Getting Started:
 - you need to install python(https://www.python.org) and psql(https://www.postgresql.org/)
 - you need to download FSND vagrant machine [https://github.com/scottharman/Udacity-FSND-VM-Vagrant]
@@ -19,11 +21,16 @@ The program you write in this project will run from the command line.
 -To load the data, cd into the vagrant directory and $vagrant up then $vagrant ssh  after that use the command psql -d news -f newsdata.sql to establish your database.
 - you can run the news.py file inside the vm in your terminal using $python news.py
 
+
+
+
 # Explore the data:
 once you have the data loaded into your database, connect to your database using psql -d news and explore the tables using the \dt and \d table commands and select statements.
 \dt — display tables — lists the tables that are available in the database.
 \d table — (replace table with the name of a table) — shows the database schema for that particular table.
 
 
-License:
+
+
+# License:
 Copyright (c) [2018] [Mashael Alahamd] This project is licensed under the MIT License - see the (LICENSE.md)[https://choosealicense.com/licenses/mit/] file for details.
