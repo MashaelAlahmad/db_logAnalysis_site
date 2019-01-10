@@ -24,13 +24,6 @@ The program you write in this project will run from the command line.
 
 
 
-# Explore the data:
-once you have the data loaded into your database, connect to your database using psql -d news and explore the tables using the \dt and \d table commands and select statements.
-\dt — display tables — lists the tables that are available in the database.
-\d table — (replace table with the name of a table) — shows the database schema for that particular table.
-
-
-
 
 # License:
 Copyright (c) [2018] [Mashael Alahamd] This project is licensed under the MIT License - see the (LICENSE.md)[https://choosealicense.com/licenses/mit/] file for details.
